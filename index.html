@@ -26,8 +26,9 @@
       rel="stylesheet"
     />
 
-    <script src="./scripts.js"></script>
-    <script src="./data.js"></script>
+    <script src="./scripts.js" defer type="module"></script>
+    <script src="./data.js" defer type="module"></script>
+  
   </head>
   <body>
 
@@ -153,7 +154,7 @@
 
         <div class="overlay__row">
           <button class="overlay__button" data-settings-cancel>Cancel</button>
-          <button class="overlay__button overlay__button_primary" type="submit" form="settings">Save</button>
+          <button class="overlay__button overlay__button_primary" type="submit" form="settings" data-settings-save>Save</button>
         </div>
       </div>
     </dialog>
