@@ -192,7 +192,7 @@ document.querySelector("[data-list-items]")
 document.addEventListener("click", showBookDetails);
 
 document.querySelector("[data-list-close]").addEventListener("click", () => {
-  document.querySelector("[data-list-active]").style.display = "none";
+  document.querySelector("[data-list-active]").close();
 });
 
 // Show More Button
@@ -347,8 +347,6 @@ function createPreviewFilters(author, image, title) {
 
   return element
 }
-
-
 
   //  Scroll to Top
 
